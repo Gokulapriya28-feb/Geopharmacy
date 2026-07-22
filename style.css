@@ -1,0 +1,122 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.container{
+    background-image: url("images/bg-image.jpeg");
+    color: #0A1F44;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+     position: relative;
+   height: 100vh;
+}
+.container h1{
+    font-size: 85px;
+    margin-left: 350px;
+    padding: 200px;
+    display: flex;
+}
+.container h2{
+    font-size: 75px;
+    margin-left: 350px;
+    margin-bottom: 300px;
+   top: -420px;
+   position: relative;
+    
+}
+.nxt-button{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    color: black ;
+    background-color: antiquewhite;
+    font-weight: 900;
+}
+.secondpage{
+    background-image: url("images/medicine3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    
+}
+.secondpage h1{
+    font-size: 70px;
+    color: navy;
+}
+.Medicine{
+    display: flex;
+    flex-direction: column;   /* 👈 Makes buttons go down */
+    gap: 12px;
+    margin-top: 40px;
+    
+}
+
+.symptom{
+     padding: 12px 30px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+#result{
+    color: #000000;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 20px;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+}
+#bgVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.welcome{
+    background-image:url("images/welcome.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    height: 100vh;
+}
+.end-call{
+    background: red;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+}
+.after{
+    background-image: url("images/geopharmacy.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    position: relative;
+}
