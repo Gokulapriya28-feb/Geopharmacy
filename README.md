@@ -58,19 +58,16 @@ Geopharmacy/
 
 ### 🏠 Home Page
 
-![Home](images/home.png)
+![Home](images/Screenshot%202026-07-24%20145725.png)
 
-### 🔍 Search Page
-
-![Search](images/search.png)
 
 ### 💊 Medicine Details
 
-![Medicine](images/medicine.png)
+![Madicine](images/Screenshot%202026-07-24%20145743.png)
 
 ### 📱 Responsive Design
 
-![Responsive](images/mobile.png)
+![About](images/Screenshot%202026-07-24%20145838.png)
 
 ---
 
